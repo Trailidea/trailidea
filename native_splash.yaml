@@ -1,7 +1,35 @@
 flutter_native_splash:
+  # Platform configurations
   android: true
   ios: true
   web: false
 
-  color: "#4A3EFF"
+  # Duration the splash is displayed in milliseconds
+  duration_ms: 5000
 
+  # Light Mode Configuration
+  background_image: "assets/images/splash_background.png"
+  image: "assets/images/logo.png"
+  branding: "assets/images/branding_image.png"
+  
+  # Colors
+  background_color: "#faf9f5"
+  
+  # Alignment of image
+  image_dark: "assets/images/logo.png"
+  branding_dark: "assets/images/branding_image.png"
+  background_color_dark: "#173124"
+  background_image_dark: "assets/images/splash_background.png"
+
+  # Android specific
+  android_gravity: center
+  android_12:
+    image: "assets/images/logo.png"
+    icon_background_color: "#faf9f5"
+    branding: "assets/images/branding_image.png"
+    image_dark: "assets/images/logo.png"
+    icon_background_color_dark: "#173124"
+    branding_dark: "assets/images/branding_image.png"
+
+  # iOS specific
+  ios_content_mode: scaleToFill
