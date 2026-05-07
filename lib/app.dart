@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:trailidea/views/dashboard_view.dart';
 import 'package:trailidea/views/login_view.dart';
 import 'package:trailidea/views/register_view.dart';
 import 'package:trailidea/views/splash_view.dart';
@@ -16,7 +17,8 @@ class App extends StatelessWidget {
         '/': (context) => SplashView(),
         '/onboarding': (context) => OnboardingView(),
          '/login': (context) => LoginView(),
-         '/register': (context) => RegisterView()
+         '/register': (context) => RegisterView(),
+         '/dashboard': (context) => DashboardView()
        
       },
     );
