@@ -1,0 +1,22 @@
+flutter_native_splash:
+  # Platform configurations
+  android: true
+  ios: true
+  web: false
+
+  # Light Mode Configuration
+  background_image: "lib/assets/images/background_image.png"
+  branding: "lib/assets/images/branding_image.png"
+  
+  # Alignment of image
+  branding_dark: "lib/assets/images/branding_image_black.png"
+  background_image_dark: "lib/assets/images/background_image_black.png"
+
+  # Android specific
+  android_gravity: center
+  android_12:
+    branding: "lib/assets/images/branding_image.png"
+    branding_dark: "lib/assets/images/branding_image_black.png"
+
+  # iOS specific
+  ios_content_mode: scaleToFill
